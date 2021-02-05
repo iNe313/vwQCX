@@ -1,0 +1,160 @@
+html, body,
+ul, ol, li,
+h1, h2, h3, h4, h5, h6, p, div {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Hiragino Kaku Gothic ProN W3', sans-serif;
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+/* ここからCSSを書いていきましょう */
+.top-wrapper{
+  text-align:center;
+  padding:180px 0px 100px 0px;
+  background-image:url(https://prog-8.com/images/html/advanced/top.png);
+  color:white;
+  background-size:cover;
+}
+.top-wrappertitle h1{
+   font-size:45px;
+   font-weight:blod;
+   opacity:0.7;
+   letter-spacing:5px;
+}
+.top-wrappertitle p{
+  opacity:0.7;
+  
+}
+.p2{
+  margin-bottom:30px;
+}
+.or{
+  padding-top:20px;
+  padding-bottom:20px;
+  opacity:0.8;
+}
+.btn{
+  color:white;
+  padding:8px 24px;
+  opacity:0.8;
+  border-radius:4px;
+}
+.signup{
+  background-color:#239b76;
+  margin-top:30px;
+}
+.facebook{
+  background-color:#3b5998;
+  margin-right:10px;
+}
+.twitter{
+  background-color:#55acee;
+}
+header{
+  height:65px;
+  width:100%;
+  background-color:rgba(34,49,52,0.9);
+  position:fixed;
+  z-index:10;
+  
+}
+.header-logo{
+  width:124px;
+  margin-top:20px;
+  margin-left:60px;
+}
+.header-right{
+  float:right;
+  background-color:rgba(255,255,255,0.3);
+  padding:20px 25px;
+  margin-right:39px;
+  transition:all 0.5s;
+}
+.header-right:hover{
+  background-color:rgba(255,255,255,0.5);
+}
+.login{
+  color:white;
+}
+.lessons{
+  height:580px;
+  text-align:center;
+  padding-right:50px;
+  padding-left:50px;
+  background-color:#f7f7f7;
+}
+.heading{
+  padding-top:90px;
+  padding-bottom:50px;
+  text-align:center;
+}
+.heading h2{
+  font-weight:normal;
+  color:#5f5b60;
+}
+.lesson{
+  float:left;
+  width:25%;
+}
+.text-item{
+  position:relative;
+}
+.text-item p{
+  position:absolute;
+  top:90px;
+  width:100%;
+  color:#f7f7f7;
+}
+.text-content{
+  padding-top:15px;
+  margin-left:40px;
+  width:80%;
+  font-size:13px;
+  color:#b3aeb5;
+}
+.charenge-heading{
+  text-align:center;
+  color:#5f5d60;
+  padding-top:90px;
+  padding-bottom:60px;
+}
+.charenge-heading h2{
+  font-weight:normal;
+}
+.let{
+  background-color:#5dca88;
+  padding:15px 40px;
+  color:white;
+  opacity:0.8;
+  cursor:pointer;
+  box-shadow:0px 7px #1a7940;
+}
+.charenge{
+  text-align:center;
+  padding-bottom:90px;
+  border-bottom:1px solid #eee;
+}
+footer{
+  float:left;
+  color:#b3aeb5;
+  padding-left:60px;
+  padding-bottom:30px;
+  font-size:12px;
+}
+footer img{
+  width:124px;
+}
+.footer-picture{
+   padding-top:30px;
+ 
+}
